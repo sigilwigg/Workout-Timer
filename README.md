@@ -7,7 +7,7 @@ Create a workout, then record your workout times! Signup or login. Login as user
 > 1) Download the code, then open a command line.
 > 2) navigate to the "workout_timer/backend" and run
 >       ```$ npm install``` then ```$ npm start```
-> 3) similarly, navigate to the "workout_timer/frontend" and run the same two commands:
+> 3) similarly, open a second terminal and navigate to the "workout_timer/frontend" and run the same two commands:
 >       ```$ npm install``` then ```$ npm start```
 > 4) the backend is set to localhost:1234, the frontend is localhost:3000
 ---

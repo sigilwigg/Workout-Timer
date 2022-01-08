@@ -1,8 +1,6 @@
 # Workout Timer
 ---
-Create a workout, then record your workout times!
-
-Signup or login. Login as username: "admin" password: "password" to see a dummy account.
+Create a workout, then record your workout times! Signup or login. Login as username: "admin" password: "password" to see a dummy account.
 ---
 
 ## Setup:

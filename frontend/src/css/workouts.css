@@ -1,0 +1,13 @@
+.workouts {
+    position: relative;
+    width: 100%;
+    height: calc(100% - calc(var(--padding-standard) * 2));
+    box-sizing: border-box;
+    margin: var(--padding-standard) auto var(--padding-standard) auto;
+}
+
+.workouts .btn-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

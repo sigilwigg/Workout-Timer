@@ -1,0 +1,35 @@
+.times-list {
+    height: calc(90% - 100px);
+    padding: var(--padding-standard);
+    margin-top: var(--padding-standard);
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.times-list span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.times-list .time-display {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: var(--padding-standard);
+    padding: var(--padding-standard);
+    box-sizing: border-box;
+    background: var(--color-mid-2);
+    border-radius: 15px;
+}
+
+.time-display span p {
+    margin-left: var(--padding-standard);
+}
+
+.round-display .round-info p:nth-child(1) {
+    margin-left: calc(var(--padding-standard) + 10%);
+}
+
+.exercise-info p:nth-child(1) {
+    margin-left: calc(var(--padding-standard) + 20%);
+}

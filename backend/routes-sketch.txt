@@ -1,0 +1,15 @@
+routes:
+    /users
+    /users/:id
+
+    /exercises
+    /exercises/:id
+
+    users/:id/workouts
+    users/:id/workouts/:id
+    users/:id/workouts/:id/exercises
+    users/:id/workouts/:id/exercises/:id
+
+    times
+        => list all times: {timeId, DateTime, userId, workoutId, ttlTime, circuts:[...{ttlTime, exercises:[...{name, reps, time}]}],}
+    times?user=userId&workout=workoutId&exercise=exerciseId

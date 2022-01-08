@@ -1,0 +1,14 @@
+{
+    "1": {
+        "id": 1,
+        "username": "admin",
+        "password": "$2b$12$DFqivqWMsTqzVMu.28ZCBex4m8/2IadHvkmb60N0I2CYXjd1n5HNu",
+        "isActive": false
+    },
+    "2": {
+        "id": 2,
+        "username": "guest",
+        "password": "$2b$12$DFqivqWMsTqzVMu.28ZCBex4m8/2IadHvkmb60N0I2CYXjd1n5HNu",
+        "isActive": false
+    }
+}

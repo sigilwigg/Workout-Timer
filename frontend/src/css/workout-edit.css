@@ -1,0 +1,85 @@
+.workout-edit {
+    height: calc(90% - 100px);
+}
+
+.workout-edit .exercise-edit {
+    height: 58%;
+    overflow-y: scroll;
+}
+
+.workout-edit .btn-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* ========== rest time/rounds display ========== */
+.workout-edit .rest-time-display,
+.workout-edit .rounds-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rest-time-display button,
+.rounds-display button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.rest-time-display h4,
+.rounds-display h4 {
+    padding-top: var(--padding-standard);
+    box-sizing: border-box;
+}
+
+
+/* ========== list ========== */
+.exercise-edit .list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-item p {
+    padding-top: var(--padding-standard);
+    box-sizing: border-box;
+}
+
+.list-item p:nth-child(1){
+    height: 100%;
+    margin-left: var(--padding-standard);
+}
+
+.list-item span p {
+    height: 100%;
+    margin-left: var(--padding-standard);
+    margin-right: var(--padding-standard);
+}
+
+.list-item span {
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: var(--padding-standard);
+}
+
+.list-item button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.trash {
+    background: var(--color-trash);
+}
+
+.add-exercise {
+    background: var(--color-hi-1);
+}

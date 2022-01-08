@@ -1,0 +1,31 @@
+.form-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: fit-content;
+    padding: var(--padding-standard);
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 15px;
+    background: var(--color-bg-mid-1);
+}
+
+.form-container li {
+    position: relative;
+    width: 40%;
+    margin: var(--padding-standard) auto var(--padding-standard) auto;
+    list-style-type: none;
+}
+
+.form-container button {
+    position: relative;
+}
+
+/* .signup {
+    background: var(--color-mid-2);
+} */
+
+.signup button {
+    background: var(--color-hi-1);
+}

@@ -1,0 +1,108 @@
+.timer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.timer .big-friendly-circle {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: #00ff66;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 400ms;
+}
+
+.timer .circle-btn {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timer .circle-text {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    color: black;
+}
+
+.circle-text .cur-reps {
+    position: relative;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.circle-text .cur-time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 3.5rem;
+}
+
+.circle-text .next {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.complete {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+    color: black;
+}
+
+.timer .next-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 3rem;
+    background: var(--color-hi-1);
+}
+
+.timer .pause-btn {
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1rem;
+    background: var(--color-mid-2);
+}
+
+.timer .pause-btn:hover {
+    background: var(--color-hi-2);
+}
+
+.workout-title {
+    width: 100%;
+    height: 125px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.is-complete-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+.is-complete-btns button {
+    position: relative;
+    width: 40%;
+    background: var(--color-hi-1);
+    font-size: 1.5rem;
+}

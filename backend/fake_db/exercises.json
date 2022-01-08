@@ -1,0 +1,34 @@
+{
+    "1": {
+        "id": 1,
+        "name": "45 degree hip extension"
+    },
+    "2": {
+        "id": 2,
+        "name": "90/90 transition"
+    },
+    "3": {
+        "id": 3,
+        "name": "abductor machine"
+    },
+    "4": {
+        "id": 4,
+        "name": "ab mat sit-up"
+    },
+    "5": {
+        "id": 5,
+        "name": "ab wheel"
+    },
+    "6": {
+        "id": 6,
+        "name": "adductor machine"
+    },
+    "7": {
+        "id": 7,
+        "name": "adductor plank"
+    },
+    "8": {
+        "id": 8,
+        "name": "air squat"
+    }
+}

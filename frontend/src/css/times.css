@@ -1,0 +1,12 @@
+.times {
+    position: relative;
+    width: 100%;
+    height: calc(100% - calc(var(--padding-standard) * 2));
+    margin: var(--padding-standard) auto var(--padding-standard) auto;
+}
+
+.times .btn-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

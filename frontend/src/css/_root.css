@@ -1,0 +1,44 @@
+:root {
+    /* color pallete */
+    --color-bg-deep: #343c54;
+    --color-bg-main: #252836;
+    --color-mid-1: #262c38;
+    --color-mid-2:#323843;
+    --color-hi-1:#78366c;
+    --color-hi-2: #de8172;
+    --color-txt: #cbc3c9;
+    --color-trash: red;
+
+    /* font sizes */
+    --font-size-sm: .75rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.25rem;
+
+    /* margins & padding */
+    --edge-margin-horz: auto;
+    --padding-standard: 10px;
+
+    /* component widths & heights */
+    --main-component-width: 400px;
+    --main-component-height: 240px;
+}
+
+/* Smartphones (short) (portrait and landscape) -------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 411px) {
+    :root {
+        /* font sizes */
+        --font-size-sm: .75rem;
+        --font-size-md: 1rem;
+        --font-size-lg: 1.25rem;
+
+        /* margins & padding */
+        --edge-margin-horz: 15px;
+        --padding-standard: 10px;
+
+        /* component widths & heights */
+        --main-component-width: calc(100% - calc(var(--edge-margin-horz) * 2));
+        --main-component-height: 240px;
+    }
+}

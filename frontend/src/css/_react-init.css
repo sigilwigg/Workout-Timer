@@ -1,0 +1,133 @@
+/* ========== COMMON ELEMENTS ========== */
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+button {
+    position: relative;
+    margin: var(--padding-standard) auto var(--padding-standard) auto;
+    border: none;
+    border-radius: 10px;
+    background: var(--color-mid-2);
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    transition: 400ms;
+}
+
+button:hover {
+    background: var(--color-hi-2);
+}
+
+#root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #343c54;
+}
+
+#App {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    width: var(--main-component-width);
+    height: 60vh;
+    color: var(--color-txt);
+    background: var(--color-bg-main);
+    border-radius: 15px;
+    padding: var(--padding-standard);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+/* ========== SCROLL ELEMENTS ========== */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+*::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: var(--color-mid-2);
+}
+*::-webkit-scrollbar-thumb {
+    background: var(--color-hi-1);
+    border-radius: 20px;
+}
+
+
+/* ========== INPUT ELEMENTS ========== */
+label {
+    opacity: .75;
+}
+textarea {
+    resize: none;
+    box-sizing: border-box;
+    padding: none;
+    border: none;
+}
+textarea:focus {
+    outline: none;
+}
+input {
+    background: none;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid var(--color-txt);
+    color: var(--color-txt);
+}
+input:focus {
+    outline: none;
+    outline-offset: 0;
+}
+input:-internal-autofill-selected {
+    -webkit-appearance: none;
+    color: var(--color-txt);
+}
+
+
+
+/* ========== TEXT ELEMENTS ========== */
+P {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+h6 {
+    margin: 0;
+}

@@ -1,0 +1,102 @@
+{
+    "0": {
+        "userId": 1,
+        "username": "admin",
+        "workoutId": 0,
+        "name": "workout 0",
+        "rounds": 3,
+        "exercises": [
+            {
+                "name": "rest",
+                "restTimeSecs": 20
+            },
+            {
+                "name": "situps",
+                "reps": 15
+            },
+            {
+                "name": "pushups",
+                "reps": 15
+            },
+            {
+                "name": "tricep dips",
+                "reps": 15
+            }
+        ]
+    },
+    "1": {
+        "userId": 1,
+        "username": "admin",
+        "workoutId": 1,
+        "name": "workout 1",
+        "rounds": 3,
+        "exercises": [
+            {
+                "name": "rest",
+                "restTimeSecs": 20
+            },
+            {
+                "name": "leg curls",
+                "reps": 15
+            },
+            {
+                "name": "plank",
+                "reps": 15
+            },
+            {
+                "name": "lunges",
+                "reps": 15
+            }
+        ]
+    },
+    "2": {
+        "userId": 1,
+        "username": "admin",
+        "workoutId": 2,
+        "name": "workout 2",
+        "rounds": 3,
+        "exercises": [
+            {
+                "name": "rest",
+                "restTimeSecs": 20
+            },
+            {
+                "name": "tubbs",
+                "reps": 15
+            },
+            {
+                "name": "randolf",
+                "reps": 15
+            },
+            {
+                "name": "katie",
+                "reps": 15
+            }
+        ]
+    },
+    "3": {
+        "userId": 1,
+        "username": "admin",
+        "workoutId": 3,
+        "name": "workout 3",
+        "rounds": 3,
+        "exercises": [
+            {
+                "name": "rest",
+                "restTimeSecs": 20
+            },
+            {
+                "name": "ping pong",
+                "reps": 15
+            },
+            {
+                "name": "tennis",
+                "reps": 15
+            },
+            {
+                "name": "basket bong",
+                "reps": 15
+            }
+        ]
+    }
+}

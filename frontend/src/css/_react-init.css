@@ -48,7 +48,7 @@ button:hover {
     transform: translateY(-50%);
     margin: auto;
     width: var(--main-component-width);
-    height: 60vh;
+    height: 560px;
     color: var(--color-txt);
     background: var(--color-bg-main);
     border-radius: 15px;
